@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ASRFLY": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
