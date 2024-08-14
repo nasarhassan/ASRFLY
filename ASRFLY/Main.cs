@@ -19,13 +19,18 @@ namespace ASRFLY
         }
         #region Events
         private void buttonHome_Click(object sender, EventArgs e)
-       
+
         { //LOAD HomePage 
-            pageManager.LoadPage( Gui.GuiHome.HomeUserControl.Instance());
+            pageManager.LoadPage(Gui.GuiHome.HomeUserControl.Instance());
         }
         #endregion
 
         private void panelContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Main_Load(object sender, EventArgs e)
         {
 
         }

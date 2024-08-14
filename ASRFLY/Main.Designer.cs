@@ -206,6 +206,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             WindowState = FormWindowState.Maximized;
+            Load += Main_Load;
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
